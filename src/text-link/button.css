@@ -1,0 +1,28 @@
+@import '../../styles/root.css';
+
+a b,
+a em,
+a i,
+a strong,
+button {
+  border-radius: var(--border-radius);
+  display: inline-block;
+  font-size: medium;
+  font-weight: bold;
+  line-height: var(--line-height);
+  margin: 0.5rem 0;
+  padding: 1rem 2rem;
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+button:active {
+  filter: brightness(var(--active-brightness));
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(var(--hover-brightness));
+}
